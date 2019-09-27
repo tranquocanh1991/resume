@@ -113,7 +113,7 @@
         $('#facebook').html('<i class="fab fa-facebook-square"></i><a href = "https://www.facebook.com/' + person.facebook.name + '" target = "_blank" > ' + person.facebook.displayName + '</a>');
         $('#tel').html('<i class="fa fa-phone"></i><a href = "tel:' + person.tel + '" > ' + person.tel + '</a>');
         $('#email').html('<i class="fa fa-envelope"></i><a href = "mailto:' + person.email + '" > ' + person.email + '</a>');
-        $('#address').html('<i class="fa fa-map-marked"></i><a href = "https://www.google.com/maps/search/?api=1&query=' + person.address.lattitude + '.' + person.address.longitude + '" target = "_blank" > ' + person.address.location + '</a>');
+        $('#address').html('<i class="fa fa-map-marked"></i><a href = "https://www.google.com/maps/search/?api=1&query=' + person.address.lattitude + ',' + person.address.longitude + '" target = "_blank" > ' + person.address.location + '</a>');
     }
 
     var calProgram = function () {
