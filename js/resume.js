@@ -22,7 +22,7 @@
             let string = '<div class="hashtag-item">' + item + '</div>';
             $('#core-competency').append(string);
         });
-        $('#address').html('<i class="fa fa-map-marked"></i><a href = "https://www.google.com/maps/search/?api=1&query=' + person.address.lattitude + '.' + person.address.longitude + '" target = "_blank" > ' + person.address.location + '</a>');
+        $('#address').html('<i class="fa fa-map-marked"></i><a href = "https://www.google.com/maps/search/?api=1&query=' + person.address.lattitude + ',' + person.address.longitude + '" target = "_blank" > ' + person.address.location + '</a>');
         $('#tel').html('<i class="fa fa-phone"></i><a href = "tel:' + person.tel + '" > ' + person.tel + '</a>');
         $('#email').html('<i class="fa fa-envelope"></i><a href = "mailto:' + person.email + '" > ' + person.email + '</a>');
         $('#education').html('<div class="content-out"><div class="title col-80">' + person.education.degree + ' of ' + person.education.field + '</div><div class="year col-20">' + person.education.start + '-' + person.education.end + '</div><div class="title col-100">' + person.education.school + '</div></div>');
