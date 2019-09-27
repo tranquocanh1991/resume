@@ -200,6 +200,7 @@
   ],
   "architecture": [
     "Monolithic",
+    "Microservice",
     "Serverless"
   ],
   "designPattern": [
