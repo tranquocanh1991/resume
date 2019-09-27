@@ -1,0 +1,314 @@
+{
+  "firstName": "Anh",
+  "surName": "Tran Quoc",
+  "dateOfBirth": "27/02/1991",
+  "gender": "male",
+  "nationality": "vietnamese",
+  "title": "A solution architect",
+  "hometown": "Ha Tinh Province",
+  "address": {
+    "location": "Da Nang - Viet Nam",
+    "lattitude": 16.000050,
+    "longitude": 108.217520
+  },
+  "tel": "(+84)989827017",
+  "email": "tranquocanh1991@gmail.com",
+  "facebook": {
+    "name": "qacnit",
+    "displayName": "Tran Quoc Anh"
+  },
+  "website": "www.google.com",
+  "cv": "data/Tran Quoc Anh.pdf",
+  "quote": "Work smarter, not harder",
+  "summary": "With over 5 years experience in the software development field and have been experiencing various positions in term of technique as well as management, I always desire to enhance and promote entire abilities of mine in order to make valuable things.",
+  "personality": [
+    "versatile",
+    "curious",
+    "motivated",
+    "enthusiastic",
+    "responsible",
+    "creative",
+    "handsome"
+  ],
+  "education": {
+    "location": "Da Nang City",
+    "school": "College of IT Da Nang University",
+    "start": "2010",
+    "end": "2013",
+    "degree": "Bachelor",
+    "field": "Software Technology"
+  },
+  "maritalStatus": {
+    "isMarried": true,
+    "date": "12/06/2019"
+  },
+  "honor": [
+    {
+      "name": "Best Employee Of The Quarter",
+      "year": 2015
+    }
+  ],
+  "certification": [
+    {
+      "name": "AA Certified Advanced RPA Professional",
+      "year": 2019
+    },
+    {
+      "name": "UiPath Advanced RPA Developer",
+      "year": 2019
+    }
+  ],
+  "milestone": [
+    {
+      "year": 1991,
+      "title": "born",
+      "icon": "fa fa-baby",
+      "content": "27/02/1991\nHa Tinh Province"
+    },
+    {
+      "year": 2010,
+      "title": "migrated",
+      "icon": "fas fa-university",
+      "content": "Da Nang City\nCollege of IT Da Nang University"
+    },
+    {
+      "year": 2013,
+      "title": "graduated",
+      "icon": "fas fa-graduation-cap",
+      "content": "Bachelor Of Software Technology Degree"
+    },
+    {
+      "year": 2014,
+      "title": "worked",
+      "icon": "fas fa-briefcase",
+      "content": "FPT Software Da Nang"
+    },
+    {
+      "year": 2019,
+      "title": "married",
+      "icon": "fas fa-ring",
+      "content": "12/06/2019"
+    },
+    {
+      "year": 2019,
+      "title": "present",
+      "icon": "fas fa-user-tie",
+      "content": "A RPA Solution Architect"
+    }
+  ],
+  "competency": [
+    "Personal Credibility",
+    "Self Confidence",
+    "Adaptability",
+    "Planning and Organizing",
+    "Communication",
+    "Coaching and Mentoring",
+    "Problem Solving",
+    "Analytical Thinking"
+  ],
+  "foreignLanguage": [
+    {
+      "name": "English",
+      "degree": "TOEIC",
+      "score": 650
+    },
+    {
+      "name": "Japanese",
+      "degree": "JLPT",
+      "score": 5
+    }
+  ],
+  "programingLanguage": [
+    {
+      "name": "C#",
+      "year": 0
+    },
+    {
+      "name": "Python",
+      "year": 0
+    },
+    {
+      "name": "PHP",
+      "year": 0
+    },
+    {
+      "name": "HTML",
+      "year": 0
+    },
+    {
+      "name": "CSS",
+      "year": 0
+    },
+    {
+      "name": "Javascript",
+      "year": 0
+    }
+  ],
+  "database": [
+    {
+      "name": "SQL Server",
+      "year": 2014
+    },
+    {
+      "name": "My SQL",
+      "year": 2014
+    },
+    {
+      "name": "DynamoDB",
+      "year": 2014
+    },
+    {
+      "name": "PostgreSQL",
+      "year": 2014
+    },
+    {
+      "name": "Oracle",
+      "year": 2014
+    }
+  ],
+  "frameworkOrPlatform": [
+    {
+      "name": "AWS",
+      "icon": "images/icons/AWS_Logo.png",
+      "year": 2014
+    },
+    {
+      "name": ".NET",
+      "icon": "images/icons/NetCore_Logo.png",
+      "year": 2014
+    },
+    {
+      "name": "UIPath",
+      "icon": "images/icons/UI_Logo.png",
+      "year": 2014
+    },
+    {
+      "name": "AA",
+      "icon": "images/icons/AA_Logo.png",
+      "year": 2014
+    },
+    {
+      "name": "Bootstrap",
+      "icon": "images/icons/Bootstrap_Logo.png",
+      "year": 2014
+    },
+    {
+      "name": "Jquery",
+      "icon": "images/icons/Jquery_Logo.png",
+      "year": 2014
+    }
+  ],
+  "architecture": [
+    "Monolithic",
+    "Serverless"
+  ],
+  "designPattern": [
+    "singleton",
+    "factory pattern",
+    "dependency injection"
+  ],
+  "experience": [
+    {
+      "company": "FPT Software Da Nang",
+      "projects": 2,
+      "title": "Developer",
+      "start": "01/2014",
+      "end": "12/2015",
+      "market": "Japan",
+      "model": "Waterfall",
+      "technology": [
+        ".NET",
+        "C#",
+        "HTML",
+        "CSS",
+        "Javascript",
+        "AWS",
+        "JQuery",
+        "SQL Server"
+      ],
+      "responsibility": [
+        "Developed and enhanced various systems",
+        "Created low level designs",
+        "Provided technical solutions",
+        "Improved and tuned application performance"
+      ]
+    },
+    {
+      "company": "FPT Software Da Nang",
+      "projects": 3,
+      "title": "Team leader",
+      "start": "01/2016",
+      "end": "06/2018",
+      "market": "Japan",
+      "model": "Waterfall",
+      "technology": [
+        ".NET",
+        "C#",
+        "HTML",
+        "CSS",
+        "Javascript",
+        "Jquery",
+        "SQL Server",
+        "Oracle"
+      ],
+      "responsibility": [
+        "Led a team with amount 2~4 members",
+        "Developed framework and core business",
+        "Created high/low level design",
+        "Detected and resolved technical problems",
+        "Trained and guided new employees",
+        "Directly communicated with Japan customer via comtor"
+      ]
+    },
+    {
+      "company": "FPT Software Da Nang",
+      "projects": 3,
+      "title": "Project Manager",
+      "start": "06/2018",
+      "end": "02/2019",
+      "market": "Japan",
+      "model": "Waterfall",
+      "technology": [
+        ".NET",
+        "C#",
+        "HTML",
+        "CSS",
+        "AWS",
+        "Python",
+        "PHP",
+        "DynamoDB"
+      ],
+      "responsibility": [
+        "Managed projects with amount 3~6 member",
+        "Estimated and negotiated proposals, contracts",
+        "Created high/low level designs",
+        "Directly communicated with Japan customer via comtor",
+        "Developed frameworks and core businesses"
+      ]
+    },
+    {
+      "company": "FPT Digital Processing Service",
+      "projects": 2,
+      "title": "Solution Architect",
+      "start": "02/2019",
+      "end": "present",
+      "market": "US",
+      "model": "Scrum",
+      "technology": [
+        ".NET",
+        "C#",
+        "HTML",
+        "CSS",
+        "AA",
+        "UIPath"
+      ],
+      "responsibility": [
+        "Evaluate, assess, consult and provide RPA solutions",
+        "Develop framework and core business",
+        "Estimate and negotiate the proposal, contract",
+        "Directly communicate with US customer",
+        "Interview, train and guide new employees"
+      ]
+    }
+  ]
+}

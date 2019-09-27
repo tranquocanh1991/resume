@@ -1,0 +1,196 @@
+﻿*, *::after, *:before {
+    box-sizing: border-box;
+}
+
+/*Variables*/
+:root {
+    /*Color variables*/
+    --main-color: white;
+    --sub-color: #2b2b2b;
+    --overlay-color: #2b2b2ba8;
+}
+
+html, body {
+    height: 297mm;
+    width: 210mm;
+    margin: 0 auto;
+    font-size: 14px;
+    overflow-wrap: break-word;
+    color: var(--sub-color);
+}
+
+@media only screen {
+    body {
+        border: solid 1px black;
+    }
+}
+
+img {
+    width: 80%;
+}
+
+ul {
+    list-style-position: inside;
+    padding-inline-start: 0px;
+    margin-block-start: 5px;
+    margin-block-end: 5px;
+}
+
+a, a:hover, a:visited {
+    color: blue;
+}
+
+.break {
+    page-break-after: always;
+    page-break-inside: avoid;
+}
+
+.hashtag {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    flex-direction: column;
+}
+
+    .hashtag .hashtag-item {
+        display: inline-block;
+        color: var(--sub-color);
+        background-color: var(--main-color);
+    }
+
+        .hashtag .hashtag-item::before {
+            content: "#";
+        }
+
+.block {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    padding-bottom: 10px;
+}
+
+    .block .article {
+        width: 100%;
+        position: relative;
+        padding-bottom: 5px;
+    }
+
+    .block .name {
+        width: 100%;
+        background: white;
+        position: relative;
+        display: inline;
+        padding-right: 15px;
+        font-size: 22px;
+        font-weight: bolder;
+        text-transform: capitalize;
+    }
+
+    .block .line {
+        width: 100%;
+        position: absolute;
+        height: 1px;
+        top: 50%;
+        background-color: var(--overlay-color);
+    }
+
+    .block .content {
+        width: 100%;
+        padding-left: 10px;
+    }
+
+    .block .content-out {
+        width: 100%;
+        position: relative;
+        display: flex;
+        flex-wrap: wrap;
+        margin-bottom: 5px;
+    }
+
+    .block .year {
+        text-align: right;
+        font-size: 16px;
+        text-transform: capitalize;
+        font-style: italic;
+    }
+
+    .block .title {
+        font-size: 17px;
+        text-transform: capitalize;
+    }
+
+    .block .overview {
+        display: flex;
+        padding-left: 10px;
+        margin-top: 5px;
+    }
+
+    .block .overview-item {
+        display: inline;
+        color: var(--main-color);
+        background-color: var(--overlay-color);
+        padding: 1px 5px;
+        border-radius: 5px;
+        margin-right: 2px;
+        font-size: 13px;
+    }
+
+    .block .detail {
+        padding-left: 10px;
+    }
+
+#header {
+    align-items: flex-end;
+}
+
+    #header .profile {
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+    }
+
+    #header .avatar {
+        text-align: center;
+    }
+
+#full-name {
+    font-size: 40px;
+    font-weight: bolder;
+    text-transform: capitalize;
+}
+
+#title {
+    font-size: 30px;
+    text-transform: capitalize;
+}
+
+#other {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+
+    #other .item {
+    }
+
+        #other .item::after {
+            padding: 0 5px;
+            content: "|";
+            font-weight: bolder;
+        }
+
+#container {
+}
+
+    #container > div:nth-child(1) {
+        padding: 10px 10px 10px 0;
+    }
+
+    #container > div:nth-child(2) {
+        padding: 10px 0px 10px 10px;
+    }
+
+#footer {
+}

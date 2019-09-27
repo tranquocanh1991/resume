@@ -1,0 +1,45 @@
+﻿@media (orientation:portrait) {
+    .row {
+        width: 100%;
+    }
+
+    #overview .outlook {
+        justify-content: flex-start;
+    }
+
+    .svg {
+        width: 200%;
+    }
+
+    #life-story img {
+        height: 100%;
+    }
+
+    #life-story .background-behind .gcloud-1 {
+        bottom: -10vh;
+        width: 125vw;
+        height: 35vh;
+    }
+
+    #life-story .background-behind .gcloud-2 {
+        bottom: -2vh;
+        width: 125vw;
+        height: 35vh;
+    }
+
+    #life-story .background-behind .gcloud-3 {
+        bottom: 5vh;
+        width: 125vw;
+        height: 35vh;
+    }
+}
+
+@media (orientation:portrait) and (min-width: 768px) {
+    #overview .outlook .avatar img {
+        width: 50%;
+    }
+
+    #competency .technical-skill {
+        width: 75vmin;
+    }
+}

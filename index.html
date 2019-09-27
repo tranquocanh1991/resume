@@ -1,0 +1,319 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>Anh - Tran Quoc</title>
+    <script src="js/global.js"></script>
+    <link rel="stylesheet" href="lib/font-awesome/css/all.min.css" />
+    <link rel="stylesheet" href="css/myGrid.css" />
+    <script type="text/javascript" src="lib/jquery/jquery.min.js"></script>
+    <script src="lib/greensock/dist/TweenMax.js"></script>
+    <script src="lib/animejs/anime.min.js"></script>
+    <script src="lib/jquery.touchswipe/jquery.touchSwipe.min.js"></script>
+    <script type="text/javascript" src="lib/Chart.js/Chart.js"></script>
+    <script type="text/javascript" src="js/data.js"></script>
+
+    <link rel="stylesheet" href="css/main.css" />
+    <link rel="stylesheet" href="css/main_landscape.css" />
+    <link rel="stylesheet" href="css/main_portrait.css" />
+    <link rel="stylesheet" href="css/animation.css" />
+</head>
+<body>
+    <!--WELCOME-->
+    <div id="welcome" class="slider frame-active">
+        <div class="background-behind">
+            <div class="spot-light">
+                <div class="spot"></div>
+            </div>
+            <div class="svg">
+                <svg x="0px" y="0px" viewBox="0 0 768 1024" xmlns="http://www.w3.org/2000/svg">
+                    <g>
+                        <title>Layer 1</title>
+                        <path id="spaceship-path" d="m767.336095,0.579589c-12.000088,180.001316 -45.333665,-21.333489 -266.668616,30.666891c-221.334952,52.00038 -112.000819,-86.6673 -234.668382,-8.000058c-122.667564,78.667242 -350.669231,98.667388 -214.668236,181.334659c136.000994,82.667271 621.337876,-224.001638 660.004826,-89.333986c38.666949,134.667651 -974.673793,126.667593 -609.337789,228.001667c365.336004,101.334074 566.67081,-228.001667 620.004533,-106.667447c53.333723,121.33422 84.000614,348.002544 -16.000117,248.001813c-100.000731,-100.000731 -665.338198,-117.334191 -676.004943,-38.666949c-10.666745,78.667242 320.00234,-12.000088 189.334718,77.333899c-130.667622,89.333986 -264.00193,69.33384 -201.334805,116.000848c62.667125,46.667008 458.67002,-217.334922 493.33694,-145.334396c34.66692,72.000526 281.33539,14.666774 248.001813,66.667154c-33.333577,52.00038 -452.003305,28.000205 -366.669348,92.000673c85.333957,64.000468 284.002076,-32.000234 324.002369,14.666774c40.000292,46.667008 61.333782,90.66733 60.669963,90.087745c0.663819,0.579585 68.664316,51.246622 68.000498,50.667037" opacity="0.5" fill-opacity="null" stroke-opacity="null" stroke-width="null" stroke="none" fill="none" />
+                    </g>
+                </svg>
+            </div>
+            <div class="spaceship anime">
+                <img src="images/vector/Object/spaceship.png" />
+            </div>
+            <div class="moon anime">
+                <img src="images/vector/Object/moon.png" />
+            </div>
+            <div class="earth anime">
+                <div class="blur"></div>
+                <img src="images/vector/Object/earth.png" />
+            </div>
+            <div class="astronaut anime">
+                <img src="images/vector/Human/astronaut.png" />
+            </div>
+        </div>
+        <div class="slider-container">
+            <div class="welcome-text-header anime">
+                hello!
+            </div>
+            <div class="welcome-text item-1 anime">
+                please scroll down or swipe right to begin our journey
+            </div>
+        </div>
+        <div class="background-front"></div>
+    </div>
+
+    <!--OVERVIEW-->
+    <div id="overview" class="slider frame-inactive">
+        <div class="background-behind">
+            <div class="svg"></div>
+        </div>
+        <div class="slider-container">
+            <div class="row">
+                <div class="col-100 profile">
+                    <div class="welcome-text-header anime">
+                        hello!
+                    </div>
+                    <div id="full-name" class="title item-1 anime">
+                    </div>
+                    <div id="title" class="title item-2 anime">
+                    </div>
+                    <div id="summary" class="summary item-3 anime">
+                    </div>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-100 outlook">
+                    <div class="avatar">
+                        <img class="avatar-img anime" src="images/avatar.jpg" />
+                    </div>
+                    <div id="personality" class="hashtag">
+                    </div>
+                    <div id="quote" class="quote anime">
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+        <div class="background-front">
+
+        </div>
+    </div>
+
+    <!--LIFE STORY-->
+    <div id="life-story" class="slider frame-inactive">
+        <div class="background-behind">
+        </div>
+        <div class="slider-container">
+            
+        </div>
+        <div class="background-front">
+        </div>
+    </div>
+
+    <!--COMPETENCY-->
+    <div id="competency" class="slider frame-inactive">
+        <div class="background-behind">
+            <div class="br keyboard anime">
+                <img src="images/vector/Object/keyboard2.png" />
+            </div>
+            <div class="br coffee anime">
+                <img src="images/vector/Object/coffee1.png" />
+            </div>
+            <div class="br mouse anime">
+                <img src="images/vector/Object/mouse1.png" />
+            </div>
+            <div class="tr glasses anime">
+                <img src="images/vector/Object/glasses1.png" />
+            </div>
+            <div class="tr news anime">
+                <img src="images/vector/Object/news1.png" />
+            </div>
+            <div class="tl screen anime">
+                <img src="images/vector/Object/screen2.png" />
+            </div>
+            <div class="tl microphone anime">
+                <img src="images/vector/Object/microphone1.png" />
+            </div>
+            <div class="tl card anime">
+                <img src="images/vector/Object/card1.png" />
+            </div>
+            <div class="bl note anime">
+                <img src="images/vector/Object/note1.png" />
+            </div>
+            <div class="bl stick anime">
+                <img src="images/vector/Object/stick1.png" />
+            </div>
+        </div>
+        <div class="slider-container">
+            <div class="row anime">
+                <div class="col-50">
+                    <div class="experience">
+                        <div class="box anime">
+                            <div class="box-number">
+                                <p class="year anime"></p>
+                            </div>
+                            <div class="box-name outline">
+                                years
+                            </div>
+                        </div>
+                        <div class="box anime">
+                            <div class="box-number">
+                                <p class="project anime"></p>
+                            </div>
+                            <div class="box-name outline">
+                                projects
+                            </div>
+                        </div>
+                        <div class="box anime">
+                            <div class="box-number">
+                                <p class="role anime"></p>
+                            </div>
+                            <div class="box-name outline">
+                                roles
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-50">
+                    <div class="personal-skill">
+                        <div class="box">
+                            <div class="box-number">
+                                <p class="toeic anime"></p>
+                            </div>
+                            <div class="box-name outline">
+                                TOEIC
+                            </div>
+                        </div>
+                        <div class="box">
+                            <div class="box-number">
+                                <p class="jlpt anime"></p>
+                            </div>
+                            <div class="box-name outline">
+                                JLPT
+                            </div>
+                        </div>
+                        <div class="box">
+                            <div class="box-number">
+                                <p class="cert anime"></p>
+                            </div>
+                            <div class="box-name outline">
+                                CERT
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row flex-center anime">
+                <div class="title outline">core competency</div>
+                <div id="core-competency" class="other hashtag anime">
+                </div>
+            </div>
+            <div class="row flex-center anime">
+                <div class="title outline">programing language</div>
+                <div class="technical-skill">
+                    <canvas id="technical-chart"></canvas>
+                </div>
+            </div>
+            <div class="row flex-center anime">
+                <div class="title outline">framework/platform</div>
+                <div id="framework-platform" class="framework anime">
+                </div>
+            </div>
+            <div class="row flex-center anime">
+                <div class="title outline">achievement</div>
+                <div id="achievement" class="achievement anime">
+                </div>
+            </div>
+        </div>
+        <div class="background-front"></div>
+    </div>
+
+    <!--CONTACT-->
+    <div id="about" class="slider frame-inactive">
+        <div class="background-behind">
+
+        </div>
+        <div class="background-behind-other">
+            <div class="powered-by">
+                powered by
+            </div>
+            <div class="thanks">
+                Thanks!!!
+            </div>
+            <div class="powered-by-animejs">
+                <img src="images/icons/animejs_Logo.png" />
+            </div>
+            <div class="powered-by-jquery">
+                <img src="images/icons/Jquery_Logo.png" />
+            </div>
+            <div class="powered-by-greenshock">
+                <img src="images/icons/greenshock_Logo.png" />
+            </div>
+            <div class="powered-by-chart">
+                <img src="images/icons/chart_Logo.png" />
+            </div>
+            <div class="powered-by-css">
+                <img src="images/icons/css3_Logo.png" />
+            </div>
+            <div class="powered-by-html">
+                <img src="images/icons/html5_Logo.png" />
+            </div>
+            <div class="powered-by-freepik">
+                <img src="images/icons/freepik_Logo.png" />
+            </div>
+            <div class="powered-by-fa">
+                <img src="images/icons/fa_Logo.png" />
+            </div>
+        </div>
+        <div class="slider-container">
+            <div class="row">
+                <div class="conclude outline">
+                    <div class="item anime">
+                        If you want to know further more details about me.
+                    </div>
+                    <div class="item anime">
+                        Please download my resume.
+                    </div>
+                    <div class="item anime">
+                        Or just contact with me.
+                    </div>
+                    <div class="item anime">
+                        I'm pleased to see you.
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="contact-infor">
+                    <div id="resume" class="contact anime">
+                    </div>
+                    <div id="facebook" class="contact anime">
+                    </div>
+                    <div id="tel" class="contact anime">
+                    </div>
+                    <div id="email" class="contact anime">
+                    </div>
+                    <div id="address" class="contact anime">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="background-front"></div>
+    </div>
+
+    <!--GOODBYE-->
+    <div id="goodbye" class="slider frame-inactive">
+        <div class="background-behind">
+        </div>
+        <div class="slider-container">
+            <div class="goodbye-header anime">
+                Goodbye!
+            </div>
+            <div class="goodbye-consequence anime">
+
+            </div>
+        </div>
+        <div class="background-front"></div>
+    </div>
+
+    <script src="js/main.js"></script>
+</body>
+</html>

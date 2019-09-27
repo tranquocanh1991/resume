@@ -1,0 +1,41 @@
+﻿@media (orientation:landscape) {
+    #overview .row, #about .row {
+        width: 50%;
+    }
+
+    .slider-container {
+        padding: 0 10vw;
+    }
+
+    #welcome .earth {
+        width: 50vw !important;
+        height: 50vw !important;
+        bottom: -28vw !important;
+    }
+
+    #overview .profile {
+        align-items: flex-start;
+        text-align: left;
+    }
+
+    #competency .technical-skill {
+        width: 50vmin;
+    }
+
+    #about .slider-container {
+        padding: 0;
+    }
+
+    #about .conclude {
+        text-align: left;
+        justify-content: center;
+        align-items: flex-start;
+        padding: 0 0 0 5vw;
+    }
+
+    #about .contact-infor {
+        align-items: center !important;
+        justify-content: center;
+        align-items: flex-start;
+    }
+}
