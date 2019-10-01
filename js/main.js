@@ -33,8 +33,6 @@ $(window).swipe({
             }
         }
     },
-    threshold: 200,
-    cancelThreshold: 10
 });
 
 $(window).bind('mousewheel DOMMouseScroll', function (event) {
