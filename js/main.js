@@ -124,14 +124,14 @@ function afterSlide() {
 //ANIME SLIDE PAGE REGION
 function animateSlidePageDown(currentPageId, currentPage, nextPageId, nextPage) {
     window[G_PageIDs[currentPageId].endFunc]();
-    G_TL.to(currentPage, .5, { opacity: 0, ease: Power3.easeOut });
+    G_TL.to(currentPage, 1, { opacity: 0, ease: Power3.easeOut });
     if (!G_PageIDs[nextPageId].isSlide || nextPageId == 0 || nextPageId == G_PageIDs.length - 1)
         window[G_PageIDs[nextPageId].beginFunc]();
 }
 
 function animateSlidePageUp(currentPageId, currentPage, nextPageId, nextPage) {
     //window[G_PageIDs[currentPageId].endFunc]();
-    G_TL.to(currentPage, .5, { opacity: 0, ease: Power3.easeOut });
+    G_TL.to(currentPage, 1, { opacity: 0, ease: Power3.easeOut });
     if (!G_PageIDs[nextPageId].isSlide || nextPageId == 0 || nextPageId == G_PageIDs.length - 1)
         window[G_PageIDs[nextPageId].beginFunc]();
 }
