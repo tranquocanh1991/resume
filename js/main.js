@@ -141,7 +141,7 @@ function animateWelcomeBegin() {
     G_TL.from("#welcome .slider-container > .welcome-text-header", 1, { opacity: 0, ease: Bounce.easeOut, y: -200 })
         .from("#welcome .slider-container > .welcome-text", 1, { opacity: 0, ease: Bounce.easeOut, x: -200 })
         .from("#welcome .moon", 1, { opacity: 0, x: -200 }, '-=1')
-        .from("#welcome .earth", 1, { opacity: 0, y: 200 }, '-=1')
+        .to("#welcome .earth", 1, { opacity: 1, y: 0 }, '-=1')
         ;
 
     G_AnimeMoon.play();
@@ -196,71 +196,71 @@ function animateOverviewEnd() {
 
 //LIFE REGION
 function animateLifeBegin() {
-    G_TL.fromTo("#life-story #life-1 .line", 1, { opacity: 0, height: '0%' }, { opacity: 1, height: '50%' })
+    G_TL.fromTo("#life-story #life-1 .line", 0.5, { opacity: 0, height: '0%' }, { opacity: 1, height: '50%' })
         .addLabel("1", "-=0.5")
         .from("#life-story #life-1 .circle-out", 1, { scale: 0, opacity: 0 }, "1")
         .from("#life-story #life-1 .circle", 1, { scale: 0, opacity: 0 }, "1")
         .from("#life-story #life-1 .year", 1, { opacity: 0 }, "1+=0.5")
         .from("#life-story #life-1 .break", 1, { opacity: 0, width: '0%' }, "1")
         .from("#life-story #life-1 .dot", 1, { opacity: 0 }, "1+=0.5")
-        .from("#life-story #life-1 .title", 1, { y: -100, opacity: 0 })
-        .from("#life-story #life-1 .detail", 1, { y: 100, opacity: 0 }, "-=1")
-        .fromTo("#life-story #life-1 .line", 1, { height: '50%' }, { height: '100%', ease: Linear.easeNone }, "-=0.5")
+        .from("#life-story #life-1 .title", 1, { y: -100, opacity: 0 }, "1+=0.5")
+        .from("#life-story #life-1 .detail", 1, { y: 100, opacity: 0 }, "1+=0.5")
+        .fromTo("#life-story #life-1 .line", 0.5, { height: '50%' }, { height: '100%', ease: Linear.easeNone }, "1+=1")
         //2
-        .fromTo("#life-story #life-2 .line", 1, { opacity: 0, height: '0%' }, { opacity: 1, height: '50%', ease: Linear.easeNone })
+        .fromTo("#life-story #life-2 .line", 0.5, { opacity: 0, height: '0%' }, { opacity: 1, height: '50%', ease: Linear.easeNone })
         .addLabel("2", "-=0.5")
         .from("#life-story #life-2 .circle-out", 1, { scale: 0, opacity: 0 }, "2")
         .from("#life-story #life-2 .circle", 1, { scale: 0, opacity: 0 }, "2")
         .from("#life-story #life-2 .year", 1, { opacity: 0 }, "2+=0.5")
         .from("#life-story #life-2 .break", 1, { opacity: 0, width: '0%' }, "2")
         .from("#life-story #life-2 .dot", 1, { opacity: 0 }, "2+=0.5")
-        .from("#life-story #life-2 .title", 1, { y: -100, opacity: 0 })
-        .from("#life-story #life-2 .detail", 1, { y: 100, opacity: 0 }, "-=1")
-        .fromTo("#life-story #life-2 .line", 1, { height: '50%' }, { height: '100%', ease: Linear.easeNone }, "-=0.5")
+        .from("#life-story #life-2 .title", 1, { y: -100, opacity: 0 }, "2+=0.5")
+        .from("#life-story #life-2 .detail", 1, { y: 100, opacity: 0 }, "2+=0.5")
+        .fromTo("#life-story #life-2 .line", 0.5, { height: '50%' }, { height: '100%', ease: Linear.easeNone }, "2+=1")
         //3
-        .fromTo("#life-story #life-3 .line", 1, { opacity: 0, height: '0%' }, { opacity: 1, height: '50%', ease: Linear.easeNone })
+        .fromTo("#life-story #life-3 .line", 0.5, { opacity: 0, height: '0%' }, { opacity: 1, height: '50%', ease: Linear.easeNone })
         .addLabel("3", "-=0.5")
         .from("#life-story #life-3 .circle-out", 1, { scale: 0, opacity: 0 }, "3")
         .from("#life-story #life-3 .circle", 1, { scale: 0, opacity: 0 }, "3")
         .from("#life-story #life-3 .year", 1, { opacity: 0 }, "3+=0.5")
         .from("#life-story #life-3 .break", 1, { opacity: 0, width: '0%' }, "3")
         .from("#life-story #life-3 .dot", 1, { opacity: 0 }, "3+=0.5")
-        .from("#life-story #life-3 .title", 1, { y: -100, opacity: 0 })
-        .from("#life-story #life-3 .detail", 1, { y: 100, opacity: 0 }, "-=1")
-        .fromTo("#life-story #life-3 .line", 1, { height: '50%' }, { height: '100%', ease: Linear.easeNone }, "-=0.5")
+        .from("#life-story #life-3 .title", 1, { y: -100, opacity: 0 }, "3+=0.5")
+        .from("#life-story #life-3 .detail", 1, { y: 100, opacity: 0 }, "3+=0.5")
+        .fromTo("#life-story #life-3 .line", 0.5, { height: '50%' }, { height: '100%', ease: Linear.easeNone }, "3+=1")
         //4
-        .fromTo("#life-story #life-4 .line", 1, { opacity: 0, height: '0%' }, { opacity: 1, height: '50%', ease: Linear.easeNone })
+        .fromTo("#life-story #life-4 .line", 0.5, { opacity: 0, height: '0%' }, { opacity: 1, height: '50%', ease: Linear.easeNone })
         .addLabel("4", "-=0.5")
         .from("#life-story #life-4 .circle-out", 1, { scale: 0, opacity: 0 }, "4")
         .from("#life-story #life-4 .circle", 1, { scale: 0, opacity: 0 }, "4")
         .from("#life-story #life-4 .year", 1, { opacity: 0 }, "4+=0.5")
         .from("#life-story #life-4 .break", 1, { opacity: 0, width: '0%' }, "4")
         .from("#life-story #life-4 .dot", 1, { opacity: 0 }, "4+=0.5")
-        .from("#life-story #life-4 .title", 1, { y: -100, opacity: 0 })
-        .from("#life-story #life-4 .detail", 1, { y: 100, opacity: 0 }, "-=1")
-        .fromTo("#life-story #life-4 .line", 1, { height: '50%' }, { height: '100%', ease: Linear.easeNone }, "-=0.5")
+        .from("#life-story #life-4 .title", 1, { y: -100, opacity: 0 }, "4+=0.5")
+        .from("#life-story #life-4 .detail", 1, { y: 100, opacity: 0 }, "4+=0.5")
+        .fromTo("#life-story #life-4 .line", 0.5, { height: '50%' }, { height: '100%', ease: Linear.easeNone }, "4+=1")
         //5
-        .fromTo("#life-story #life-5 .line", 1, { opacity: 0, height: '0%' }, { opacity: 1, height: '50%', ease: Linear.easeNone })
+        .fromTo("#life-story #life-5 .line", 0.5, { opacity: 0, height: '0%' }, { opacity: 1, height: '50%', ease: Linear.easeNone })
         .addLabel("5", "-=0.5")
         .from("#life-story #life-5 .circle-out", 1, { scale: 0, opacity: 0 }, "5")
         .from("#life-story #life-5 .circle", 1, { scale: 0, opacity: 0 }, "5")
         .from("#life-story #life-5 .year", 1, { opacity: 0 }, "5+=0.5")
         .from("#life-story #life-5 .break", 1, { opacity: 0, width: '0%' }, "5")
         .from("#life-story #life-5 .dot", 1, { opacity: 0 }, "5+=0.5")
-        .from("#life-story #life-5 .title", 1, { y: -100, opacity: 0 })
-        .from("#life-story #life-5 .detail", 1, { y: 100, opacity: 0 }, "-=1")
-        .fromTo("#life-story #life-5 .line", 1, { height: '50%' }, { height: '100%' }, "-=0.5")
+        .from("#life-story #life-5 .title", 1, { y: -100, opacity: 0 }, "5+=0.5")
+        .from("#life-story #life-5 .detail", 1, { y: 100, opacity: 0 }, "5+=0.5")
+        .fromTo("#life-story #life-5 .line", 0.5, { height: '50%' }, { height: '100%' }, "5+=1")
         //6
-        .fromTo("#life-story #life-6 .line", 1, { opacity: 0, height: '0%' }, { opacity: 1, height: '50%', ease: Linear.easeNone })
+        .fromTo("#life-story #life-6 .line", 0.5, { opacity: 0, height: '0%' }, { opacity: 1, height: '50%', ease: Linear.easeNone })
         .addLabel("6", "-=0.5")
         .from("#life-story #life-6 .circle-out", 1, { scale: 0, opacity: 0 }, "6")
         .from("#life-story #life-6 .circle", 1, { scale: 0, opacity: 0 }, "6")
         .from("#life-story #life-6 .year", 1, { opacity: 0 }, "6+=0.5")
         .from("#life-story #life-6 .break", 1, { opacity: 0, width: '0%' }, "6")
         .from("#life-story #life-6 .dot", 1, { opacity: 0 }, "6+=0.5")
-        .from("#life-story #life-6 .title", 1, { y: -100, opacity: 0 })
-        .from("#life-story #life-6 .detail", 1, { y: 100, opacity: 0 }, "-=1")
-        .fromTo("#life-story #life-6 .line", 1, { height: '50%' }, { height: '100%' }, "-=0.5")
+        .from("#life-story #life-6 .title", 1, { y: -100, opacity: 0 }, "6+=0.5")
+        .from("#life-story #life-6 .detail", 1, { y: 100, opacity: 0 }, "6+=0.5")
+        .fromTo("#life-story #life-6 .line", 0.5, { height: '50%' }, { height: '100%' }, "6+=1")
         ;
 }
 
@@ -295,11 +295,10 @@ function animateCompetencyEnd() {
 //ABOUT REGION
 function animateAboutBegin() {
     G_BackgroundTL.play();
-    G_TL.staggerFrom("#about .conclude .item", 2, { opacity: 0, x: -100 }, 0.5)
-        .staggerFrom("#about .contact-infor .contact", 2, { opacity: 0, y: -100 }, 0.5)
+    G_TL.staggerFrom("#about .conclude .item", 1, { opacity: 0, x: -100 }, 0.5)
+        .staggerFrom("#about .contact-infor .contact", 1, { opacity: 0, y: -100 }, 0.5)
         .from("#about .background-behind-other .powered-by", 1, { opacity: 0 })
-        .staggerFrom("#about .background-behind-other img", 7, { opacity: 0 }, 1)
-        .from("#about .background-behind-other .thanks", 1, { opacity: 0 })
+        .staggerFrom("#about .background-behind-other img", 3, { opacity: 0 }, 0.5)
         ;
 }
 
@@ -456,8 +455,8 @@ function animeBackground(selector, times = 2) {
             rotate: '1turn',
             backgroundImage: 'linear-gradient(180deg, rgba(255,255,255,1) 8%, rgba(211,205,198,1) 100%)',
             borderRadius: ['0%', '50%'],
-            duration: 2000,
-            delay: anime.stagger(80, { grid: [G_XItem, G_YItem], start: 1000, from: 'center' }),
+            duration: 1000,
+            delay: anime.stagger(80, { grid: [G_XItem, G_YItem], start: 0, from: 'center' }),
         }
     )
 
@@ -471,9 +470,9 @@ function animeBackground(selector, times = 2) {
                     { value: 2, easing: 'easeOutSine', duration: 225 },
                     { value: 1, easing: 'easeInOutQuad', duration: 1200 }
                 ],
-                translateX: anime.stagger([0, '1vmin', 0], { grid: [G_XItem, G_YItem], from: num, axis: 'x' }),
-                translateY: anime.stagger([0, '1vmin', 0], { grid: [G_XItem, G_YItem], from: num, axis: 'y' }),
-                delay: anime.stagger(80, { grid: [G_XItem, G_YItem], start: 1000, from: num }),
+                //translateX: anime.stagger([0, '1vmin', 0], { grid: [G_XItem, G_YItem], from: num, axis: 'x' }),
+                //translateY: anime.stagger([0, '1vmin', 0], { grid: [G_XItem, G_YItem], from: num, axis: 'y' }),
+                delay: anime.stagger(80, { grid: [G_XItem, G_YItem], start: 0, from: num }),
             }
         )
     }
@@ -487,8 +486,8 @@ function animeBackground(selector, times = 2) {
             rotate: '1turn',
             opacity: 0,
             borderRadius: ['50%', '0%'],
-            duration: 2000,
-            delay: anime.stagger(80, { grid: [G_XItem, G_YItem], start: 1000, from: 'center' }),
+            duration: 1000,
+            delay: anime.stagger(80, { grid: [G_XItem, G_YItem], start: 0, from: 'center' }),
         }
     )
 }

@@ -195,6 +195,7 @@ body {
         right: -10vw;
         width: 75vw;
         height: 75vw;
+        transform: translateY(75vw);
     }
 
     #welcome .earth .blur {
@@ -837,7 +838,7 @@ body {
             position: absolute;
             width: 16vmin;
             top: 19vh;
-            left: 40vw;
+            right: 35vw;
             opacity: 0.6;
             transform: rotate(-15deg);
         }
@@ -882,7 +883,7 @@ body {
             position: absolute;
             width: 19vmin;
             top: 34vh;
-            left: 25vw;
+            left: 40vw;
             opacity: 0.6;
             transform: rotate(-3deg);
         }

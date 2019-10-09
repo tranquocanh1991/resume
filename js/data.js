@@ -13,7 +13,7 @@
 
     var bindOverview = function () {
         $('#overview .svg').load('images/vector/SVG/tech.svg');
-        $('#full-name').html(person.firstName + ' - ' + person.surName);
+        $('#full-name').html("I'm " + person.firstName + ' - ' + person.surName);
         $('#title').html(person.title);
         $('#summary').html(person.summary);
         person.personality.forEach(function (item, index) {
@@ -109,11 +109,11 @@
     }
 
     var bindAbout = function () {
-        $('#resume').html('<i class="fa fa-download"></i><a href = "' + person.cv + '" target = "_blank" > Curriculum vitae</a>');
-        $('#facebook').html('<i class="fab fa-facebook-square"></i><a href = "https://www.facebook.com/' + person.facebook.name + '" target = "_blank" > ' + person.facebook.displayName + '</a>');
-        $('#tel').html('<i class="fa fa-phone"></i><a href = "tel:' + person.tel + '" > ' + person.tel + '</a>');
-        $('#email').html('<i class="fa fa-envelope"></i><a href = "mailto:' + person.email + '" > ' + person.email + '</a>');
-        $('#address').html('<i class="fa fa-map-marked"></i><a href = "https://www.google.com/maps/search/?api=1&query=' + person.address.lattitude + ',' + person.address.longitude + '" target = "_blank" > ' + person.address.location + '</a>');
+        $('#resume').html('<a href = "' + person.cv + '" target = "_blank" ><i class="fa fa-download"></i> Curriculum vitae</a>');
+        $('#facebook').html('<a href = "https://www.facebook.com/' + person.facebook.name + '" target = "_blank" ><i class="fab fa-facebook-square"></i> ' + person.facebook.displayName + '</a>');
+        $('#tel').html('<a href = "tel:' + person.tel + '" ><i class="fa fa-phone"></i> ' + person.tel + '</a>');
+        $('#email').html('<a href = "mailto:' + person.email + '" ><i class="fa fa-envelope"></i> ' + person.email + '</a>');
+        $('#address').html('<a href = "https://www.google.com/maps/search/?api=1&query=' + person.address.lattitude + ',' + person.address.longitude + '" target = "_blank" ><i class="fa fa-map-marked"></i> ' + person.address.location + '</a>');
     }
 
     var calProgram = function () {
