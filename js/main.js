@@ -203,8 +203,8 @@ function animateLifeBegin() {
         .from("#life-story #life-1 .year", 1, { opacity: 0 }, "1+=0.5")
         .from("#life-story #life-1 .break", 1, { opacity: 0, width: '0%' }, "1")
         .from("#life-story #life-1 .dot", 1, { opacity: 0 }, "1+=0.5")
-        .from("#life-story #life-1 .title", 1, { y: -100, opacity: 0 }, "1+=0.5")
-        .from("#life-story #life-1 .detail", 1, { y: 100, opacity: 0 }, "1+=0.5")
+        .from("#life-story #life-1 .title", 1, { y: -50, opacity: 0 }, "1+=0.5")
+        .from("#life-story #life-1 .detail", 1, { y: 50, opacity: 0 }, "1+=0.5")
         .fromTo("#life-story #life-1 .line", 0.5, { height: '50%' }, { height: '100%', ease: Linear.easeNone }, "1+=1")
         //2
         .fromTo("#life-story #life-2 .line", 0.5, { opacity: 0, height: '0%' }, { opacity: 1, height: '50%', ease: Linear.easeNone })
@@ -214,8 +214,8 @@ function animateLifeBegin() {
         .from("#life-story #life-2 .year", 1, { opacity: 0 }, "2+=0.5")
         .from("#life-story #life-2 .break", 1, { opacity: 0, width: '0%' }, "2")
         .from("#life-story #life-2 .dot", 1, { opacity: 0 }, "2+=0.5")
-        .from("#life-story #life-2 .title", 1, { y: -100, opacity: 0 }, "2+=0.5")
-        .from("#life-story #life-2 .detail", 1, { y: 100, opacity: 0 }, "2+=0.5")
+        .from("#life-story #life-2 .title", 1, { y: -50, opacity: 0 }, "2+=0.5")
+        .from("#life-story #life-2 .detail", 1, { y: 50, opacity: 0 }, "2+=0.5")
         .fromTo("#life-story #life-2 .line", 0.5, { height: '50%' }, { height: '100%', ease: Linear.easeNone }, "2+=1")
         //3
         .fromTo("#life-story #life-3 .line", 0.5, { opacity: 0, height: '0%' }, { opacity: 1, height: '50%', ease: Linear.easeNone })
@@ -225,8 +225,8 @@ function animateLifeBegin() {
         .from("#life-story #life-3 .year", 1, { opacity: 0 }, "3+=0.5")
         .from("#life-story #life-3 .break", 1, { opacity: 0, width: '0%' }, "3")
         .from("#life-story #life-3 .dot", 1, { opacity: 0 }, "3+=0.5")
-        .from("#life-story #life-3 .title", 1, { y: -100, opacity: 0 }, "3+=0.5")
-        .from("#life-story #life-3 .detail", 1, { y: 100, opacity: 0 }, "3+=0.5")
+        .from("#life-story #life-3 .title", 1, { y: -50, opacity: 0 }, "3+=0.5")
+        .from("#life-story #life-3 .detail", 1, { y: 50, opacity: 0 }, "3+=0.5")
         .fromTo("#life-story #life-3 .line", 0.5, { height: '50%' }, { height: '100%', ease: Linear.easeNone }, "3+=1")
         //4
         .fromTo("#life-story #life-4 .line", 0.5, { opacity: 0, height: '0%' }, { opacity: 1, height: '50%', ease: Linear.easeNone })
@@ -236,8 +236,8 @@ function animateLifeBegin() {
         .from("#life-story #life-4 .year", 1, { opacity: 0 }, "4+=0.5")
         .from("#life-story #life-4 .break", 1, { opacity: 0, width: '0%' }, "4")
         .from("#life-story #life-4 .dot", 1, { opacity: 0 }, "4+=0.5")
-        .from("#life-story #life-4 .title", 1, { y: -100, opacity: 0 }, "4+=0.5")
-        .from("#life-story #life-4 .detail", 1, { y: 100, opacity: 0 }, "4+=0.5")
+        .from("#life-story #life-4 .title", 1, { y: -50, opacity: 0 }, "4+=0.5")
+        .from("#life-story #life-4 .detail", 1, { y: 50, opacity: 0 }, "4+=0.5")
         .fromTo("#life-story #life-4 .line", 0.5, { height: '50%' }, { height: '100%', ease: Linear.easeNone }, "4+=1")
         //5
         .fromTo("#life-story #life-5 .line", 0.5, { opacity: 0, height: '0%' }, { opacity: 1, height: '50%', ease: Linear.easeNone })
@@ -247,8 +247,8 @@ function animateLifeBegin() {
         .from("#life-story #life-5 .year", 1, { opacity: 0 }, "5+=0.5")
         .from("#life-story #life-5 .break", 1, { opacity: 0, width: '0%' }, "5")
         .from("#life-story #life-5 .dot", 1, { opacity: 0 }, "5+=0.5")
-        .from("#life-story #life-5 .title", 1, { y: -100, opacity: 0 }, "5+=0.5")
-        .from("#life-story #life-5 .detail", 1, { y: 100, opacity: 0 }, "5+=0.5")
+        .from("#life-story #life-5 .title", 1, { y: -50, opacity: 0 }, "5+=0.5")
+        .from("#life-story #life-5 .detail", 1, { y: 50, opacity: 0 }, "5+=0.5")
         .fromTo("#life-story #life-5 .line", 0.5, { height: '50%' }, { height: '100%' }, "5+=1")
         //6
         .fromTo("#life-story #life-6 .line", 0.5, { opacity: 0, height: '0%' }, { opacity: 1, height: '50%', ease: Linear.easeNone })
@@ -258,8 +258,8 @@ function animateLifeBegin() {
         .from("#life-story #life-6 .year", 1, { opacity: 0 }, "6+=0.5")
         .from("#life-story #life-6 .break", 1, { opacity: 0, width: '0%' }, "6")
         .from("#life-story #life-6 .dot", 1, { opacity: 0 }, "6+=0.5")
-        .from("#life-story #life-6 .title", 1, { y: -100, opacity: 0 }, "6+=0.5")
-        .from("#life-story #life-6 .detail", 1, { y: 100, opacity: 0 }, "6+=0.5")
+        .from("#life-story #life-6 .title", 1, { y: -50, opacity: 0 }, "6+=0.5")
+        .from("#life-story #life-6 .detail", 1, { y: 50, opacity: 0 }, "6+=0.5")
         .fromTo("#life-story #life-6 .line", 0.5, { height: '50%' }, { height: '100%' }, "6+=1")
         ;
 }
