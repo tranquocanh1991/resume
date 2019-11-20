@@ -4,7 +4,7 @@
   "dateOfBirth": "27/02/1991",
   "gender": "male",
   "nationality": "vietnamese",
-  "title": "A solution architect",
+  "title": "A technical leader",
   "hometown": "Ha Tinh Province",
   "address": {
     "location": "Da Nang - Viet Nam",
@@ -93,7 +93,7 @@
       "year": 2019,
       "title": "present",
       "icon": "fas fa-user-tie",
-      "content": "A RPA Solution Architect"
+      "content": "A Technical Leader"
     }
   ],
   "competency": [
