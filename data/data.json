@@ -200,6 +200,7 @@
   ],
   "architecture": [
     "Monolithic",
+	"Multitier",
     "Microservice",
     "Serverless"
   ],
