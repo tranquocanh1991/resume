@@ -93,7 +93,13 @@
       "year": 2019,
       "title": "present",
       "icon": "fas fa-user-tie",
-      "content": "A Technical Leader"
+      "content": "A Solution Architect"
+    },
+    {
+      "year": 2020,
+      "title": "present",
+      "icon": "fas fa-user-tie",
+      "content": "A Technical Architect"
     }
   ],
   "competency": [
@@ -292,7 +298,7 @@
     {
       "company": "FPT Digital Processing Service",
       "projects": 2,
-      "title": "A technical leader",
+      "title": "A solution architect",
       "start": "02/2019",
       "end": "present",
       "market": "US",
