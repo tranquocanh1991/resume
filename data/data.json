@@ -62,6 +62,16 @@
       "year": 2020
     }
   ],
+  "community": [
+    {
+      "name": "Mentor - MTI Hackathon 2020",
+      "year": 2020
+    },
+    {
+      "name": "Mentor - Winner team - Google DSC Unihack 2022",
+      "year": 2019
+    }
+  ],
   "milestone": [
     {
       "year": 1991,
@@ -169,7 +179,7 @@
   "frameworkOrPlatform": [
     {
       "name": "AWS",
-      "icon": "images/icons/AWS_logo.png",
+      "icon": "images/icons/AWS_Logo.png",
       "year": 2014
     },
     {
@@ -271,7 +281,7 @@
       "end": "02/2020",
       "market": "US",
       "model": "Scrum",
-      "technology": [".NET", "C#", "HTML", "Javascript", "CSS", "AA", "UIPath"],
+      "technology": [".NET", "C#", "AA", "UIPath"],
       "responsibility": [
         "Evaluate, assess, consult and provide RPA solutions",
         "Develop framework and core business",
