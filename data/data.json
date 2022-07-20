@@ -8,8 +8,8 @@
   "hometown": "Ha Tinh Province",
   "address": {
     "location": "Da Nang - Viet Nam",
-    "lattitude": 16.000050,
-    "longitude": 108.217520
+    "lattitude": 16.00005,
+    "longitude": 108.21752
   },
   "tel": "(+84)989827017",
   "email": "tranquocanh1991@gmail.com",
@@ -136,11 +136,7 @@
       "year": 0
     },
     {
-      "name": "HTML",
-      "year": 0
-    },
-    {
-      "name": "CSS",
+      "name": "Typescript",
       "year": 0
     },
     {
@@ -173,7 +169,12 @@
   "frameworkOrPlatform": [
     {
       "name": "AWS",
-      "icon": "images/icons/AWS_Logo.png",
+      "icon": "images/icons/AWS_logo.png",
+      "year": 2014
+    },
+    {
+      "name": "Azure",
+      "icon": "images/icons/azure_Logo.png",
       "year": 2014
     },
     {
@@ -192,27 +193,30 @@
       "year": 2014
     },
     {
-      "name": "Bootstrap",
-      "icon": "images/icons/Bootstrap_Logo.png",
+      "name": "Nodejs",
+      "icon": "images/icons/node_logo.png",
       "year": 2014
     },
     {
-      "name": "Jquery",
-      "icon": "images/icons/Jquery_Logo.png",
+      "name": "Reactjs",
+      "icon": "images/icons/react_logo.png",
+      "year": 2014
+    },
+    {
+      "name": "Vuejs",
+      "icon": "images/icons/vue_logo.png",
       "year": 2014
     }
   ],
   "architecture": [
     "Monolithic",
-	"Multitier",
+    "Multitier",
     "Microservice",
-    "Serverless"
+    "Serverless",
+    "Clean",
+    "DDD"
   ],
-  "designPattern": [
-    "singleton",
-    "factory pattern",
-    "dependency injection"
-  ],
+  "designPattern": ["singleton", "factory pattern", "dependency injection"],
   "experience": [
     {
       "company": "FPT Software Da Nang",
@@ -222,20 +226,10 @@
       "end": "12/2015",
       "market": "Japan",
       "model": "Waterfall",
-      "technology": [
-        ".NET",
-        "C#",
-        "HTML",
-        "CSS",
-        "Javascript",
-        "AWS",
-        "JQuery",
-        "SQL Server"
-      ],
+      "technology": [".NET", "C#", "AWS", "JQuery", "SQL Server"],
       "responsibility": [
         "Developed and enhanced various systems",
         "Created low level designs",
-        "Provided technical solutions",
         "Improved and tuned application performance"
       ]
     },
@@ -247,23 +241,12 @@
       "end": "06/2018",
       "market": "Japan",
       "model": "Waterfall",
-      "technology": [
-        ".NET",
-        "C#",
-        "HTML",
-        "CSS",
-        "Javascript",
-        "Jquery",
-        "SQL Server",
-        "Oracle"
-      ],
+      "technology": [".NET", "C#", "Jquery", "SQL Server", "Oracle", "SignalR"],
       "responsibility": [
         "Led a team with amount 2~4 members",
-        "Developed framework and core business",
         "Created high/low level design",
         "Detected and resolved technical problems",
-        "Trained and guided new employees",
-        "Directly communicated with Japan customer via comtor"
+        "Trained and guided new employees"
       ]
     },
     {
@@ -274,23 +257,10 @@
       "end": "02/2019",
       "market": "Japan",
       "model": "Waterfall",
-      "technology": [
-        ".NET",
-        "C#",
-        "HTML",
-        "CSS",
-		"Javascript",
-        "AWS",
-        "Python",
-        "PHP",
-        "DynamoDB"
-      ],
+      "technology": [".NET", "C#", "AWS", "Python", "PHP", "DynamoDB"],
       "responsibility": [
         "Managed projects with amount 3~6 member",
-        "Estimated and negotiated proposals, contracts",
-        "Created high/low level designs",
-        "Directly communicated with Japan customer via comtor",
-        "Developed frameworks and core businesses"
+        "Estimated and negotiated proposals, contracts"
       ]
     },
     {
@@ -298,24 +268,31 @@
       "projects": 2,
       "title": "A solution architect",
       "start": "02/2019",
-      "end": "present",
+      "end": "02/2020",
       "market": "US",
       "model": "Scrum",
-      "technology": [
-        ".NET",
-        "C#",
-        "HTML",
-		"Javascript",
-        "CSS",
-        "AA",
-        "UIPath"
-      ],
+      "technology": [".NET", "C#", "HTML", "Javascript", "CSS", "AA", "UIPath"],
       "responsibility": [
         "Evaluate, assess, consult and provide RPA solutions",
         "Develop framework and core business",
         "Estimate and negotiate the proposal, contract",
-        "Directly communicate with US customer",
         "Interview, train and guide new employees"
+      ]
+    },
+    {
+      "company": "MTI Technology Vietnam",
+      "projects": 3,
+      "title": "A technical architect",
+      "start": "02/2020",
+      "end": "present",
+      "market": "US",
+      "model": "Scrum",
+      "technology": [".NET", "Nodejs", "Reactjs", "Vuejs", "AWS", "Azure"],
+      "responsibility": [
+        "Involve in all phases of the product development cycle including requirements analysis, conceptual design, project estimation, detailed design, software construction and deployment",
+        "Determine functional and non-functional requirements (architectural characteristics)",
+        "Provide technical guidance and coaching to developers",
+        "Give the engineering practices"
       ]
     }
   ]
