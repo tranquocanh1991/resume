@@ -304,7 +304,9 @@
         "Involve in all phases of the product development cycle including requirements analysis, conceptual design, project estimation, detailed design, software construction and deployment",
         "Determine functional and non-functional requirements (architectural characteristics)",
         "Provide technical guidance and coaching to developers",
-        "Give the engineering practices"
+        "Give and apply the best engineering practices",
+        "Help resolve technical problems as and when developers arise",
+        "Ensure that systems satisfy quality standards and procedures"
       ]
     }
   ]
