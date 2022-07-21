@@ -58,6 +58,10 @@
             let string = '<div class="title col-100">' + item.name + ' - ' + item.year + '</div>';
             $('#achievement').append(string);
         });
+        person.community.forEach(function (item, index) {
+            let string = '<div class="title col-100">' + item.name + ' - ' + item.year + '</div>';
+            $('#community').append(string);
+        });
         person.foreignLanguage.forEach(function (item, index) {
             if (item.name == 'English')
                 english += '<li> ' + item.degree + ': ' + item.score + '</li>';
