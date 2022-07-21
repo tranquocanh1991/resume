@@ -251,7 +251,7 @@
       "end": "06/2018",
       "market": "Japan",
       "model": "Waterfall",
-      "technology": [".NET", "C#", "Jquery", "SQL Server", "Oracle", "SignalR"],
+      "technology": [".NET", "C#", "AWS", "SQL Server", "Oracle", "SignalR"],
       "responsibility": [
         "Led a team with amount 2~4 members",
         "Created high/low level design",
@@ -270,7 +270,9 @@
       "technology": [".NET", "C#", "AWS", "Python", "PHP", "DynamoDB"],
       "responsibility": [
         "Managed projects with amount 3~6 member",
-        "Estimated and negotiated proposals, contracts"
+        "Estimated and negotiated proposals, contracts",
+        "Defined working, communication processes",
+        "Was responsible for profit, cost, success of project"
       ]
     },
     {
@@ -281,7 +283,7 @@
       "end": "02/2020",
       "market": "US",
       "model": "Scrum",
-      "technology": [".NET", "C#", "AA", "UIPath"],
+      "technology": [".NET", "C#", "Azure", "AA", "UIPath"],
       "responsibility": [
         "Evaluate, assess, consult and provide RPA solutions",
         "Develop framework and core business",
@@ -295,7 +297,7 @@
       "title": "A technical architect",
       "start": "02/2020",
       "end": "present",
-      "market": "US",
+      "market": "Japan",
       "model": "Scrum",
       "technology": [".NET", "Nodejs", "Reactjs", "Vuejs", "AWS", "Azure"],
       "responsibility": [
