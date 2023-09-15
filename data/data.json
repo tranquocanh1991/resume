@@ -20,7 +20,7 @@
   "website": "https://tranquocanh1991.github.io/resume",
   "cv": "data/Tran Quoc Anh.pdf",
   "quote": "Work smarter, not harder",
-  "summary": "With over 8 years experience in the software development field and have been experiencing various positions in term of technique as well as management, I always desire to enhance and promote entire capabilities of mine in order to make valuable things.",
+  "summary": "With over 9 years experience in the software development field and have been experiencing various positions in term of technique as well as management, I always desire to enhance and promote entire capabilities of mine in order to make valuable things.",
   "personality": [
     "versatile",
     "curious",
@@ -50,16 +50,12 @@
   ],
   "certification": [
     {
-      "name": "AA Certified Advanced RPA Professional",
-      "year": 2019
-    },
-    {
-      "name": "UiPath Advanced RPA Developer",
-      "year": 2019
-    },
-    {
       "name": "Azure Solution Architect Expert",
       "year": 2020
+    },
+    {
+      "name": "AA Certified Advanced RPA Professional",
+      "year": 2019
     }
   ],
   "community": [
@@ -70,6 +66,10 @@
     {
       "name": "Mentor - Winner team - Google DSC Unihack",
       "year": 2022
+    },
+    {
+      "name": "Speaker - DevDay",
+      "year": 2023
     }
   ],
   "milestone": [
