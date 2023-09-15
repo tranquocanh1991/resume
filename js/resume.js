@@ -29,6 +29,7 @@
         $('#education').html('<div class="content-out"><div class="title col-80">' + person.education.degree + ' of ' + person.education.field + '</div><div class="year col-20">' + person.education.start + '-' + person.education.end + '</div><div class="title col-100">' + person.education.school + '</div></div>');
         for (i = person.experience.length - 1; i >= 0; i--) {
             $('#experience').append(expString(person.experience[i]));
+            if (i === person.experience.length - 3) $('#experience').append('<div style="break-after:page"></div>');
         }
         person.architecture.forEach(function (item, index) {
             architecture += '<li> ' + item + '</li>';
