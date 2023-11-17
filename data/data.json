@@ -282,7 +282,7 @@
       "start": "02/2019",
       "end": "02/2020",
       "market": "US",
-      "model": "Scrum",
+      "model": "Agile",
       "technology": [".NET", "C#", "Azure", "AA", "UIPath"],
       "responsibility": [
         "Evaluated, assessed, consulted and provided RPA solutions",
@@ -293,19 +293,19 @@
     },
     {
       "company": "MTI Technology Vietnam",
-      "projects": 3,
+      "projects": 5,
       "title": "Technical architect",
       "start": "02/2020",
       "end": "present",
       "market": "Japan",
-      "model": "Scrum",
+      "model": "Agile",
       "technology": [".NET", "Nodejs", "Reactjs", "Vuejs", "AWS", "Azure"],
       "responsibility": [
         "Involve in all phases of the product development cycle including requirements analysis, conceptual design, project estimation, detailed design, software construction and deployment",
         "Determine functional and non-functional requirements (architectural characteristics)",
         "Provide technical guidance and coaching to developers",
         "Give and apply the best engineering practices",
-        "Help resolve technical problems as and when developers arise",
+        "Observer and help resolve technical problems as and when developers arise",
         "Ensure that systems satisfy quality standards and procedures"
       ]
     }
