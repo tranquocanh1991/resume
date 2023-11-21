@@ -8,6 +8,7 @@
     }
 
     var bindData = function () {
+        let domain = '<ul>';
         let architecture = '<ul>';
         let programming = '<ul>';
         let platform = '<ul>';
@@ -31,6 +32,11 @@
             $('#experience').append(expString(person.experience[i]));
             if (i === person.experience.length - 4) $('#experience').append('<div style="break-after:page"></div>');
         }
+        person.domain.forEach(function (item, index) {
+            domain += '<li> ' + item + '</li>';
+
+        });
+        $('#domain').html(domain + '</ul>');
         person.architecture.forEach(function (item, index) {
             architecture += '<li> ' + item + '</li>';
 
