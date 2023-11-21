@@ -193,9 +193,9 @@
       "year": 2014
     },
     {
-      "name": "UIPath",
+      "name": "K8s",
       "icon": "images/icons/UI_Logo.png",
-      "year": 2014
+      "year": 2019
     },
     {
       "name": "AA",
@@ -219,12 +219,17 @@
     }
   ],
   "architecture": [
-    "Monolithic",
     "Multitier",
     "Microservice",
     "Serverless",
     "Clean",
     "DDD"
+  ],
+  "domain" : [
+    "Retail",
+    "Healthcare",
+    "Fintech",
+    "Logistic"
   ],
   "designPattern": ["singleton", "factory pattern", "dependency injection"],
   "experience": [
