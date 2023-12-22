@@ -71,7 +71,7 @@
         });
         person.foreignLanguage.forEach(function (item, index) {
             if (item.name == 'English')
-                english += '<li> ' + item.degree + ': >' + item.score + '</li>';
+                english += '<li> ' + item.degree + ': ~' + item.score + '</li>';
             else if (item.name == 'Japanese')
                 japanese += '<li> ' + item.degree + ': N' + item.score + '</li>';
 
