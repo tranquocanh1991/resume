@@ -272,7 +272,7 @@
       "model": "Waterfall",
       "technology": [".NET", "C#", "AWS", "Python", "PHP", "DynamoDB"],
       "responsibility": [
-        "Managed projects with amount 3~6 member",
+        "Managed projects with amount > 10 members",
         "Estimated and negotiated proposals, contracts",
         "Defined working, communication processes",
         "Was responsible for profit, cost, success of project"
